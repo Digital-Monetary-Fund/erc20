@@ -1,21 +1,37 @@
 {
-    "name": "erc20",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "@nomiclabs/hardhat-ethers": "^2.0.1",
-        "@nomiclabs/hardhat-waffle": "^2.0.1",
-        "@openzeppelin/contracts": "^3.3.0",
-        "ethereum-waffle": "^3.2.1",
-        "ethers": "^5.0.24",
-        "hardhat": "^2.0.6"
-    },
-    "dependencies": {}
+  "name": "erc20",
+  "version": "1.0.0",
+  "description": "Solidity source code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^3.3.0",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.0.24",
+    "hardhat": "^2.0.6"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digital-Monetary-Fund/erc20.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Digital-Monetary-Fund/erc20/issues"
+  },
+  "homepage": "https://github.com/Digital-Monetary-Fund/erc20#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "save": "^2.5.0",
+    "solc": "^0.8.17",
+    "web3": "^1.8.0"
+  }
 }
